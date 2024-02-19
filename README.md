@@ -44,34 +44,34 @@ Created new feature, driver_age.
 Create a feature replacement map to map whether the drivers have finished their race with binary values of 0 and 1.
 
 ### Concatenate, Merge or Join the tables
-<img src="https://github.com/JevTeo123/F1-Machine-Learning-Model/assets/123255675/9f7dd451-1f0b-4e93-aaab-3a7351261ad5.png"><br>
+<br><img src="https://github.com/JevTeo123/F1-Machine-Learning-Model/assets/123255675/9f7dd451-1f0b-4e93-aaab-3a7351261ad5.png"><br>
 Chose the dataframes to merge together that would help in the prediction of whether a driver would finish the race.
 
-<img src="https://github.com/JevTeo123/F1-Machine-Learning-Model/assets/123255675/feded21e-baef-429f-a8e3-10b2e5184330.png"><br>
+<br><img src="https://github.com/JevTeo123/F1-Machine-Learning-Model/assets/123255675/feded21e-baef-429f-a8e3-10b2e5184330.png"><br>
 Renaming and dropping variables that have suffixes behind them for clarity.
 
 # Data Cleansing and Transformation
 ### Missing Values and Outliers
-<img src="https://github.com/JevTeo123/F1-Machine-Learning-Model/assets/123255675/5ecf0ae6-ce8c-4572-95a6-8b535005ed7d.png"><br>
+<br><img src="https://github.com/JevTeo123/F1-Machine-Learning-Model/assets/123255675/5ecf0ae6-ce8c-4572-95a6-8b535005ed7d.png"><br>
 Outliers are sifted out using box plots and logic to ensure that these outliers are not errors during the recording of data.
 
-<img src="https://github.com/JevTeo123/F1-Machine-Learning-Model/assets/123255675/2f6904b1-3ca2-436c-a662-6d45bb34367b.png"><br>
+<br><img src="https://github.com/JevTeo123/F1-Machine-Learning-Model/assets/123255675/2f6904b1-3ca2-436c-a662-6d45bb34367b.png"><br>
 ```isnull().sum()``` function is used to find missing values in the data such that missing value imputation can be carried out.
 
 <img src="https://github.com/JevTeo123/F1-Machine-Learning-Model/assets/123255675/154aced0-ab6a-4838-8f9e-819531573c5b.png"><br>
 I decided that for the missing values that are present in the dataset, the values would be replaced through an arbitrary number.
 
 ### Encoding Categorical Data
-<img src="https://github.com/JevTeo123/F1-Machine-Learning-Model/assets/123255675/04332bf3-fad9-4828-9227-6a83a51420ac.png"><br>
+<br><img src="https://github.com/JevTeo123/F1-Machine-Learning-Model/assets/123255675/04332bf3-fad9-4828-9227-6a83a51420ac.png"><br>
 There are a few categorical variables in the dataset that requires encoding into numerical data. The chosen method for encoding is One Hot Encoding of top categorical variables so as to not increase the dimensionality of the dataset.
 
 ### Transforming Numerical Data
 It is important to ensure that the data in the datasets are normalized before feeding it into the model as a skewed distribution might affect the accuracy of a model's distributions.
-<img src="https://github.com/JevTeo123/F1-Machine-Learning-Model/assets/123255675/4b8e0f49-1ef8-4982-af02-2ff422e618ec.png"><br>
+<br><img src="https://github.com/JevTeo123/F1-Machine-Learning-Model/assets/123255675/4b8e0f49-1ef8-4982-af02-2ff422e618ec.png"><br>
 In order to normalize the data, Power Transformation is done and chosen due to its effectiveness.
 
 ### Variable Discretization
-<img src="https://github.com/JevTeo123/F1-Machine-Learning-Model/assets/123255675/04d56227-4a4f-46c2-ace2-ea729e8454cd.png"><br>
+<br><img src="https://github.com/JevTeo123/F1-Machine-Learning-Model/assets/123255675/04d56227-4a4f-46c2-ace2-ea729e8454cd.png"><br>
 Equal Frequency Discretization is done to the dataset to spread the skewed data observations over different bins more equally.
 
 ### Feature Scaling
