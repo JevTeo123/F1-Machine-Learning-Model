@@ -76,7 +76,7 @@ Equal Frequency Discretization is done to the dataset to spread the skewed data 
 
 ### Feature Scaling
 Feature scaling is required to transform the data into a standardized range to reduce the impact of extreme values, making the models more robust.
-<img src="https://github.com/JevTeo123/F1-Machine-Learning-Model/assets/123255675/04627006-1183-4ef6-9781-6a434613d863.png"><br>
+<br><img src="https://github.com/JevTeo123/F1-Machine-Learning-Model/assets/123255675/04627006-1183-4ef6-9781-6a434613d863.png"><br>
 
 # Machine Learning Models
 | Model Type | Train Accuracy | Test Accuracy |
