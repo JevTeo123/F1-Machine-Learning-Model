@@ -81,7 +81,7 @@ Feature scaling is required to transform the data into a standardized range to r
 # Machine Learning Models
 | Model Type | Train Accuracy | Test Accuracy |
 | :---: | :---: | :---: |
-|Multinomial NB (Baseline Model)| 0.67 | 0.67 |
+|NB (Baseline Model)| 0.67 | 0.67 |
 | Logistic Regression Model | 0.80 | 0.80 |
 
 
